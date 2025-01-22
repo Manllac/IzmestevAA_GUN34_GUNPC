@@ -23,11 +23,16 @@ namespace UnitWeapon
 
         }
 
+        public Unit(string name)
+        {
+            Name= name;
+        }
+
 
         public Unit(string name, float health)
         {
             Name = name;
-            Health = health;
+            _health = health;
         }
 
         public Unit(string name, int minDamage, int maxDamage)

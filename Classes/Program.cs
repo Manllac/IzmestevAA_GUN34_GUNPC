@@ -14,6 +14,16 @@ namespace Classes
             public double Min { get; private set; }
             public double Max { get; private set; }
 
+            public double Get
+            {
+                get
+                {
+
+                    return random.NextDouble() * (Max - Min) + Min;
+
+                }
+            }
+
             public Interval (int minValue, int maxValue)
             {
                 if (minValue > maxValue)
@@ -41,11 +51,6 @@ namespace Classes
 
                 Min = minValue;
                 Max = maxValue;
-            }
-
-            public double Get ()
-            {
-                return random.NextDouble() * (Max - Min) + Min;
             }
 
             
@@ -83,8 +88,9 @@ namespace Classes
                 for (int i = 0; i < _room.Length; i++)
                 {
                     var room = _room[i];
-                    Console.WriteLine($"Unit of room" + room.Unit);
-                    Console.WriteLine($"Unit of room" + room.Weapon);
+                    Console.WriteLine($"Комната {i + 1}:");
+                    Console.WriteLine($"Юнит: {room.Unit.Name}");
+                    Console.WriteLine($"Оружие: {room.Weapon.Name}");
                     Console.WriteLine("—");
                 }
 
@@ -98,6 +104,7 @@ namespace Classes
         {
             Dungeon dungeon = new Dungeon();
             dungeon.ShowRooms();
+            Console.ReadKey();
         }
     }
 }

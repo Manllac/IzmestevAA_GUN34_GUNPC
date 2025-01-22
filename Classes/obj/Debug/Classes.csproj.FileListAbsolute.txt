@@ -1,2 +1,9 @@
 C:\Users\User\Desktop\HomeWork2\Classes\Classes\obj\Debug\Classes.csproj.AssemblyReference.cache
 C:\Users\User\Desktop\HomeWork2\Classes\Classes\obj\Debug\Classes.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Classes\Classes\bin\Debug\Classes.exe.config
+C:\Users\User\Desktop\Classes\Classes\bin\Debug\Classes.exe
+C:\Users\User\Desktop\Classes\Classes\bin\Debug\Classes.pdb
+C:\Users\User\Desktop\Classes\Classes\obj\Debug\Classes.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\Classes\Classes\obj\Debug\Classes.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Classes\Classes\obj\Debug\Classes.exe
+C:\Users\User\Desktop\Classes\Classes\obj\Debug\Classes.pdb
